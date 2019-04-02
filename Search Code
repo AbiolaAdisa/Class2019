@@ -1,0 +1,13 @@
+import numpy as np
+N = input("Write one number")
+print(N)
+
+x = np.zeros(1000)
+print(x)
+a = 0
+
+for i in x:
+     x[i] = input("enter number")
+     a = x[i] + a
+     Z = a/N
+     print(Z)
